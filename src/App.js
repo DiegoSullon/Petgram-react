@@ -1,9 +1,9 @@
 import React from 'react'
-import { Category } from './components/Category'
+import { ListCategories } from './components/ListCategories'
 
 export const App = ()=>{
   return(
-    <Category />
+    <ListCategories />
   )
 }
 
