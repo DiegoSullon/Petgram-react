@@ -4,14 +4,13 @@ import { ListPhotoCards } from './components/ListPhotoCards'
 import Logo from './components/Logo'
 import { GlobalStyle } from './styles/GlobalStyle'
 
-export const App = ()=>{
-  return(
+export const App = () => {
+  return (
     <>
-    <Logo/>
-    <GlobalStyle/>
-    <ListCategories />
-    <ListPhotoCards/>
+      <Logo />
+      <GlobalStyle />
+      <ListCategories />
+      <ListPhotoCards />
     </>
   )
 }
-

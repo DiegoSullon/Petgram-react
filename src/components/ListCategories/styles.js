@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-export  const List = styled.ul`
+export const List = styled.ul`
   display: flex;
   overflow: scroll;
   width: 100%;
